@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Travels</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header-section">
+        <div class="header-container">
+            <div class="logo">Wanderlust</div>
+            <nav class="navigation-bar">
+                <ul class="nav-links">
+                    <li><a href="#home-section" class="nav-link">Home</a></li>
+                    <li><a href="#destinations-section" class="nav-link">Destinations</a></li>
+                    <li><a href="#gallery-section" class="nav-link">Gallery</a></li>
+                    <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home-section" class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Explore the World with Wanderlust</h1>
+            <p class="hero-description">Your journey starts here</p>
+        </div>
+    </section>
+
+    <section id="destinations-section" class="destinations-section">
+        <h2 class="section-title">Top Travel Destinations</h2>
+        <div class="destinations-container">
+            <div class="destination-card">
+                <img src="https://via.placeholder.com/300" alt="Destination 1" class="destination-image">
+                <h3 class="destination-title">Paris</h3>
+                <p class="destination-description">Explore the romantic city of lights.</p>
+            </div>
+            <div class="destination-card">
+                <img src="https://via.placeholder.com/300" alt="Destination 2" class="destination-image">
+                <h3 class="destination-title">Tokyo</h3>
+                <p class="destination-description">The blend of tradition and technology.</p>
+            </div>
+            <div class="destination-card">
+                <img src="https://via.placeholder.com/300" alt="Destination 3" class="destination-image">
+                <h3 class="destination-title">New York</h3>
+                <p class="destination-description">Experience the city that never sleeps.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery-section" class="gallery-section">
+        <h2 class="section-title">Travel Photo Gallery</h2>
+        <div class="gallery-container">
+            <img src="https://via.placeholder.com/400" alt="Gallery Image 1" class="gallery-image">
+            <img src="https://via.placeholder.com/400" alt="Gallery Image 2" class="gallery-image">
+            <img src="https://via.placeholder.com/400" alt="Gallery Image 3" class="gallery-image">
+            <img src="https://via.placeholder.com/400" alt="Gallery Image 4" class="gallery-image">
+        </div>
+    </section>
+
+    <section id="testimonials-section" class="testimonials-section">
+        <h2 class="section-title">What Our Travelers Say</h2>
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"The best trip of my life! Wanderlust helped me plan everything!"</p>
+                <h4 class="testimonial-author">- Emma</h4>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Amazing destinations, great tips, and unforgettable memories!"</p>
+                <h4 class="testimonial-author">- John</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section" class="contact-section">
+        <h2 class="section-title">Contact Us</h2>
+        <form class="contact-form" action="submit_form.php" method="POST">
+            <input type="text" name="name" class="contact-input" placeholder="Your Name" required>
+            <input type="email" name="email" class="contact-input" placeholder="Your Email" required>
+            <textarea name="message" class="contact-textarea" placeholder="Your Message" required></textarea>
+            <button type="submit" class="contact-button">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer-section">
+        <p class="footer-text">© 2025 Wanderlust Travels. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
